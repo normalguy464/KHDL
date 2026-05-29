@@ -1,10 +1,10 @@
-# 🏠 Dự Đoán Giá Bất Động Sản TP. Hồ Chí Minh
+# Dự Đoán Giá Bất Động Sản TP. Hồ Chí Minh
 
 Dự án phân tích và dự đoán giá bất động sản tại TP. Hồ Chí Minh dựa trên dữ liệu thu thập từ nền tảng [moso.vn](https://moso.vn). Pipeline bao gồm toàn bộ các bước từ thu thập dữ liệu, xử lý, trực quan hóa đến huấn luyện mô hình học máy.
 
 ---
 
-## 📁 Cấu Trúc Thư Mục
+## Cấu Trúc Thư Mục
 
 ```
 KHDL/
@@ -22,7 +22,7 @@ KHDL/
 
 ---
 
-## 🔄 Pipeline Tổng Quan
+## Pipeline Tổng Quan
 
 ```
 Thu thập dữ liệu  →  Làm sạch & Tiền xử lý  →  Trực quan hóa  →  Huấn luyện mô hình
@@ -31,7 +31,7 @@ Thu thập dữ liệu  →  Làm sạch & Tiền xử lý  →  Trực quan hó
 
 ---
 
-## 📦 Các Bước Chính
+## Các Bước Chính
 
 ### 1. Thu Thập Dữ Liệu (`Crawldata/crawl.py`)
 
@@ -78,7 +78,7 @@ Hai phiên bản MLP được triển khai và so sánh:
 
 ---
 
-## 📊 Dữ Liệu
+## Dữ Liệu
 
 | Thuộc tính | Mô tả |
 |---|---|
@@ -97,7 +97,7 @@ Tổng số mẫu sau làm sạch: **~2.100 bất động sản**
 
 ---
 
-## 🛠️ Cài Đặt & Chạy
+## Cài Đặt & Chạy
 
 ### Yêu cầu
 
@@ -124,7 +124,7 @@ Mở các notebook bằng Jupyter hoặc Google Colab theo thứ tự:
 
 ---
 
-## 📈 Kết Quả Tóm Tắt
+## Kết Quả Tóm Tắt
 
 | Mô hình | R² | MAE (log scale) |
 |---|---|---|
@@ -136,7 +136,7 @@ Mô hình SVR với kernel RBF đạt hiệu suất tốt nhất trên tập tes
 
 ---
 
-## 📚 Công Nghệ Sử Dụng
+## Công Nghệ Sử Dụng
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-GPU-red?logo=pytorch)
